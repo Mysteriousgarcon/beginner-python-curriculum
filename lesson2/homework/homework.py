@@ -1,8 +1,12 @@
 # Homework Problem 1
 # Ask the user for two numbers.
 # Print their quotient and remainder on separate lines.
-
-
+x = input("Hey Bro, What is your first number?")
+x_num = int(x)
+y = input("Yo Dude, What is your second number?")
+y_num = int(y)
+print ("Cap Quotient", x_num // y_num)
+print ("67 Remainder", x_num % y_num)
 
 # Homework Problem 2
 # Ask the user for their favorite animal and favorite color.
